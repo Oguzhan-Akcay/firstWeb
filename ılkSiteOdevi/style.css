@@ -1,0 +1,48 @@
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    height: 100vh;
+    
+}
+
+.half1 {
+    display: flex;
+    flex: 1; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(190, 201, 201);
+
+}
+
+
+.Lorem {
+    color: rgb(96, 91, 91);
+}
+
+.butons {
+    word-spacing: 20px;
+    margin-top: 30px;
+}
+
+.half2 {
+    flex: 1;
+    background: url(img/oğuzhan.bmp);
+    background-size: cover;
+}
+
+.buton {
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+}
+
+.ikonlar {
+    display: flex;
+    /* width: 60px; */
+    justify-content: flex-end; 
+}
+
